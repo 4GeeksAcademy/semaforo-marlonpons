@@ -1,0 +1,75 @@
+body{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    margin: 0;
+}
+
+.stick{
+    position: relative;
+    top: 20px;
+    z-index: -1;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 130px;
+    width: 20px;
+    margin: 0 auto;
+}
+
+.generalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000000;
+
+}
+/*El bombillo*/
+.luz{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s, box-shadow 0.3s;
+}
+
+.rojo{
+    background-color: #ff0000;
+}
+
+.amarillo{
+    background-color: #ffff00;
+}
+
+.verde{
+    background-color: #00ff00;
+}
+
+.activo{
+    box-shadow: 0 0 20px 5px white;
+}
+
+
+/********************botones**********************/
+.botonera{
+    display: flex;
+    gap: 10px;
+}
+
+.purple {
+    background-color: #c427c4;
+}
